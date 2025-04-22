@@ -1,0 +1,43 @@
+body {
+  background-color: #efece6;
+  margin: 0; /* Remove default margin to avoid spacing issues */
+}
+
+.fixed-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #efece6;
+  color: black;
+  padding: 10px 0;
+  z-index: 1000; /* Ensure it stays above other elements */
+}
+
+.fixed-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.fixed-menu li {
+  margin: 0 15px;
+}
+
+.fixed-menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fixed-menu a:hover {
+  text-decoration: underline;
+}
+
+.menu-image {
+  width: 30px; /* Adjust the size of the image */
+  height: auto; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align the image with the text */
+}
